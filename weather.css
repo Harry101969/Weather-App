@@ -1,0 +1,58 @@
+.body {
+  margin: 0;
+  /* background-color: antiquewhite; */
+}
+
+#about-app {
+  margin-top: 0;
+  display: flex;
+  height: 70px;
+  width: 190px;
+}
+
+.location-in {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-location {
+  height: 50px;
+  width: 250px;
+  background-color: grey;
+  /* box-shadow: 4px 4px 4px 4px grey; */
+  border-color: black;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  transition: transform 0.3s ease 0s;
+}
+
+::placeholder {
+  color: black;
+}
+
+.input-location:active {
+  transform: translateY(-8px);
+}
+
+.submitBtn {
+  margin-left: 14px;
+  height: 55px;
+  width: 80px;
+  text-align: center;
+  /* box-shadow: 4px 4px 4px 4px grey; */
+  border-radius: 5px;
+
+  background-color: black;
+  color: whitesmoke;
+  transition: transform 0.3s ease 0s;
+}
+
+.submitBtn:active {
+  background-color: grey;
+  transform: translateY(-8px);
+}
